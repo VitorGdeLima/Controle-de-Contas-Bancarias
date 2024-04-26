@@ -14,7 +14,7 @@ class Program
 		contaCorrente.Depositar(3945);
 		contaCorrente.Sacar(1090);
 		
-		Console.WriteLine("Saldo da Poupança: " + contaPoupanca.Saldo);
-		Console.WriteLine("Saldo da Corrente: " + contaCorrente.Saldo);
+		Console.WriteLine("Saldo total da conta poupança: " + contaPoupanca.Saldo);
+		Console.WriteLine("Saldo total da conta corrente: " + contaCorrente.Saldo);
 	}
 }
